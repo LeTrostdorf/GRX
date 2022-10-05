@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="FormulárioGrx.css" media="screen"
+    <form action="/add" method="POST">
+
+    <title></title>
+  </head>
+  <body>
+    <div>
+      <h1 id="título">Desafio Coleta - GRX</h1>
+      <br />
+    </div>
+
+    <div class="campo">
+      <label>1)<strong> Você se considera bom em lógica?</strong></label>
+      <label>
+        <input type="radio" name="devweb" required value="Sim" checked />Sim
+      </label>
+      <label>
+        <input type="radio" name="devweb" required value="Não" />Não
+      </label>
+    </div>
+
+    <div class="campo">
+      <label>2)<strong> Gosta de aprender com desafios?</strong></label>
+      <label>
+        <input type="radio" name="desafios" required value="Sim" checked />Sim
+      </label>
+      <label>
+        <input type="radio" name="desafios" required value="Não" />Não
+      </label>
+    </div>
+
+    <div class="campo">
+      <label>3)<strong> Gostaria de fazer parte da GRX?</strong></label>
+      <select  id="opções" required>
+        <option selected disabled value="">Opções</option>
+        <option>Sim</option>
+        <option>Não</option>
+        <option>Não Sei</option>
+        <option>Agora!!</option>
+      </select>
+    </div>
+
+    <div class="campo">
+      <br />
+      <label
+        >4)<strong> Por favor, justifique a resposta anterior</strong></label
+      >
+      <textarea
+        rows="6"
+        style="width: 26em"
+        id="justificativa"
+        maxlength="200"
+        minlength="15"
+        name="justificativa"
+        required
+      ></textarea>
+    </div>
+
+    <button class="botão" type="submit">Enviar</button>
+  </body>
+</html>
+</form> 
