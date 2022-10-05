@@ -1,0 +1,30 @@
+[
+  {
+    "id": "Pergunta1",
+    "resposta": "Sim"
+  },
+  {
+    "id": "Pergunta2",
+    "resposta": "Sim"
+  },
+  {
+    "id": "Pergunta3",
+    "resposta": "Agora!!"
+  },
+  {
+    "id": "Pergunta4",
+    "resposta": "Quero conhecer mais sobre a empresa, desafios e superá-los em conjunto com um time incrível!"
+  },
+  {
+    "id": "Apuração1",
+    "resposta": "QuantidadePositiva"
+  },
+  {
+    "id": "Apuração2",
+    "resposta": "QuantidadeNegativa"
+  },
+  {
+    "id": "Apuração3",
+    "resposta": "QuantidadeNaoAvaliada"
+  }
+]
